@@ -1,6 +1,6 @@
 # django_url_decr
 
-Django Url Decorator is a simple lib let you decorating Django view functions based on url patterns, e.g., you may add _login\_required_ decorator for all sub urls of _/users/*_ :
+Django Url Decorator is a simple lib for decorating Django every view functions ofan included url sub patterns, e.g., you may add _login\_required_ decorator for all sub urls of _/users/*_ :
 
     from django_url_decr import url_decr
     from django.contrib.auth.decorators import login_required
@@ -11,4 +11,6 @@ Django Url Decorator is a simple lib let you decorating Django view functions ba
                  decr=login_required))
 
 
-Note that you can only decorate the same sub url patterns only once. 
+The usage of _url\_decr_ is the same as _django.conf.urls.url_, despite you may pass a _decr_ parameter as the decorator.
+
+Note that you can only decorate the same sub url patterns only once.

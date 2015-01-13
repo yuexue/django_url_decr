@@ -7,6 +7,7 @@ sdict = {
     'zip_safe': False,
     'install_requires': ['django'],
     'author': 'Lichun',
+    'url': 'https://github.com/yuexue/django_url_decr',
     'classifiers': [
         'Environment :: Console',
         'Framework :: Django',
